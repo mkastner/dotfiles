@@ -4,7 +4,7 @@ $HOME/dotfiles
 
 *Attention must be bare!!!*
 
-git init --bare $HOME/.dotfiles
+git init --bare $HOME/dotfiles
 
 # use config instead of git command
 
@@ -12,7 +12,7 @@ dgit command setup:
 
 In .zshrc:
 ```
-alias dgit="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME"
+alias dgit="git --git-dir=$HOME/dotfiles --work-tree=$HOME"
 ```
 
 adding a file to the repository:
